@@ -11,25 +11,27 @@ but it will update for users seeing your profile.
 
 We hope this is useful to you and we'd love to see new update idea's over at our [Discord](https://discord.gg/3JVTjhn).
 
-**Dependencies:**
+#### Dependencies
  - .NET 4.6.1+
  - Newtonsoft.Json -.+
  
- #### Building:
- Firsty, clone the repository via git
- ```
- git clone https://github.com/dehys/DehysRPD/
- ```
- 
- Open the DehysRPD.sln file in Visual Studio IDE and set the build type to **Release**.
- Build it and run the exe file. Make sure you have all the dependencies installed listed above.
- 
- #### How to use:
- Start off by creating a new discord application over [here](https://discordapp.com/developers/applications), if you do not already have one.
- Set the default values such as name and change the application icon (not optional).
- Now head over to the tab where it says **Rich Presence** and setup the rich presence part of the discord application.
- () => Adding assets and setting the name of the rich presence client.
- now fill in the DehysRPD program with the given Application ID from the discord application as well as the asset names.
- You are also able to choose a process preset by clicking the **▽** beside **Processes** and double clicking a running
- process in the list box. This way you can setup your discord application with different assets for each process for quick
- changing.
+#### Building:
+Firsty, clone the repository via git
+```
+git clone https://github.com/dehys/DehysRPD/
+```
+
+Open the DehysRPD.sln file in Visual Studio IDE and set the build type to **Release**.
+Build it and run the exe file. Make sure you have all the dependencies installed listed above.
+
+#### How to use:
+Start off by creating a new discord application over [here](https://discordapp.com/developers/applications), if you do not already have one.
+Set the default values such as name and change the application icon (not optional).
+Now head over to the tab where it says **Rich Presence** and setup the rich presence part of the discord application.
+() => Adding assets and setting the name of the rich presence client.
+now fill in the DehysRPD program with the given Application ID from the discord application as well as the asset names.
+You are also able to choose a process preset by clicking the **▽** beside **Processes** and double clicking a running
+process in the list box. This way you can setup your discord application with different assets for each process for quick
+changing.
+
+**Releases:** https://github.com/dehys/DehysRPD/releases
