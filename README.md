@@ -21,8 +21,7 @@ Firsty, clone the repository via git
 git clone https://github.com/dehys/DehysRPD/
 ```
 
-Open the DehysRPD.sln file in Visual Studio IDE and set the build type to **Release**.
-
+Open the DehysRPD.sln file in Visual Studio IDE and set the build type to **Release**. 
 Build it and run the exe file (Make sure you have all the dependencies installed listed above).
 
 #### How to use:
