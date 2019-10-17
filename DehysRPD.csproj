@@ -63,6 +63,12 @@
     <Compile Include="DehysRPDForm.Designer.cs">
       <DependentUpon>DehysRPDForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DehysRPDPre-Release.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DehysRPDPre-Release.Designer.cs">
+      <DependentUpon>DehysRPDPre-Release.cs</DependentUpon>
+    </Compile>
     <Compile Include="DiscordRpc.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -73,6 +79,9 @@
     </Compile>
     <EmbeddedResource Include="DehysRPDForm.resx">
       <DependentUpon>DehysRPDForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DehysRPDPre-Release.resx">
+      <DependentUpon>DehysRPDPre-Release.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
