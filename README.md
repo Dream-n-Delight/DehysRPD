@@ -12,7 +12,7 @@ _Discord API_ is that you can't seem to override verified apps such as League of
 is if you go in-game and then **update** the _rich-presence_ withing the program. It might not show the custom _rich-presence_ to you
 but it will update for users seeing your profile.
 
-We hope this is useful to you and we'd love to see new update idea's over at our [Discord](https://discord.gg/3JVTjhn).
+> We hope this is useful to you and we'd love to see new update idea's over at our [Discord](https://discord.gg/3JVTjhn).
 
 #### Dependencies
  - .NET 4.6.1+
@@ -26,7 +26,7 @@ git clone https://github.com/dehys/DehysRPD/
 Open the DehysRPD.sln file in Visual Studio IDE and set the build type to **Release**.  
 Build it and run the exe file (Make sure you have all the dependencies installed listed above).
 
-Here is a quick preview of what the process of building should look like:
+**Here is a quick preview of what the process of building should look like:**
 <img src="Resources/tutorial.gif"/>
 
 #### How to use:
