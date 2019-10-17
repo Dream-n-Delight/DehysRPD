@@ -14,8 +14,6 @@ but it will update for users seeing your profile.
 
 We hope this is useful to you and we'd love to see new update idea's over at our [Discord](https://discord.gg/3JVTjhn).
 
-<div style="text-align:center"><img src="Resources/tutorial.gif" /></div>
-
 #### Dependencies
  - .NET 4.6.1+
  
@@ -27,6 +25,9 @@ git clone https://github.com/dehys/DehysRPD/
 
 Open the DehysRPD.sln file in Visual Studio IDE and set the build type to **Release**.  
 Build it and run the exe file (Make sure you have all the dependencies installed listed above).
+
+Here is a quick preview of what the process of building should look like:
+<img src="Resources/tutorial.gif"/>
 
 #### How to use:
 - Start off by creating a new discord application over [here](https://discordapp.com/developers/applications).  
