@@ -3,7 +3,7 @@
 # DehysRPD - _Dehys Rich Presence for Discord_
 This is a C# _implementation_ of the [Discord RPC](https://github.com/discordapp/discord-rpc).
 
-A simple to use WinForms application using the _.NET Framework_ as well as _nuget_ dependencies such as _Discord.NET_ for rpc.
+A simple to use WinForms application using the _.NET Framework_ as well as a external dependency for rpc connection to discord. This dependency will be copied to the base directory on build.
 This project was made out of fun and wasn't really taken serious but still has an installer, lol. All you 
 have to do is create a [new discord-application](https://github.com/SinisterRectus/Discordia/wiki/Setting-up-a-Discord-application) on your discord account via the developer portal and link it to the program
 with the Application ID provided by discord. Link it up, config your assets/display texts and **update**! Only problem with the
@@ -15,7 +15,6 @@ We hope this is useful to you and we'd love to see new update idea's over at our
 
 #### Dependencies
  - .NET 4.6.1+
- - Svg 3.0.49+ (nuget)
  
 #### Building:
 Firsty, clone the repository via git
