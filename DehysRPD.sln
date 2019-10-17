@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DehysRPD", "DehysRPD.csproj", "{FA009EF4-9041-4EF6-834C-8EFCBA976954}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "setup\Setup\Setup.vdproj", "{29A1B00F-F838-401B-862D-36034E009C21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA009EF4-9041-4EF6-834C-8EFCBA976954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA009EF4-9041-4EF6-834C-8EFCBA976954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA009EF4-9041-4EF6-834C-8EFCBA976954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA009EF4-9041-4EF6-834C-8EFCBA976954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29A1B00F-F838-401B-862D-36034E009C21}.Debug|Any CPU.ActiveCfg = Debug
+		{29A1B00F-F838-401B-862D-36034E009C21}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE530A8B-177E-4BCA-9769-F2E3F37B480F}
+	EndGlobalSection
+EndGlobal
