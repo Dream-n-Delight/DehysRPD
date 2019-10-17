@@ -124,5 +124,10 @@
   <ItemGroup>
     <None Include="bin\Debug\res\Discord.svg" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="discord-rpc-w32.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
