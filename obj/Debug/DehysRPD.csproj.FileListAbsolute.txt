@@ -8,9 +8,6 @@ E:\Projects\C#\DehysRPD\bin\Debug\DehysRPD.exe
 E:\Projects\C#\DehysRPD\bin\Debug\DehysRPD.pdb
 E:\Projects\C#\DehysRPD\obj\Debug\DehysRPD.exe
 E:\Projects\C#\DehysRPD\obj\Debug\DehysRPD.pdb
-E:\Projects\C#\DehysRPD\bin\Debug\Svg.dll
-E:\Projects\C#\DehysRPD\bin\Debug\Svg.xml
-E:\Projects\C#\DehysRPD\obj\Debug\DehysRPD.csproj.CopyComplete
 E:\Projects\C#\Discord\DehysRPD\bin\Debug\discord-rpc-w32.dll
 E:\Projects\C#\Discord\DehysRPD\bin\Debug\DehysRPD.exe.config
 E:\Projects\C#\Discord\DehysRPD\bin\Debug\DehysRPD.exe
@@ -25,3 +22,4 @@ E:\Projects\C#\Discord\DehysRPD\obj\Debug\DehysRPD.csproj.CoreCompileInputs.cach
 E:\Projects\C#\Discord\DehysRPD\obj\Debug\DehysRPD.csproj.CopyComplete
 E:\Projects\C#\Discord\DehysRPD\obj\Debug\DehysRPD.exe
 E:\Projects\C#\Discord\DehysRPD\obj\Debug\DehysRPD.pdb
+E:\Projects\C#\DehysRPD\bin\Debug\discord-rpc-w32.dll
