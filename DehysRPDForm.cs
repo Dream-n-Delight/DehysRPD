@@ -5,6 +5,7 @@ using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
@@ -17,7 +18,7 @@ namespace DehysRPD
     {
 
         private readonly System.Threading.Timer _timer;
-        private System.Windows.Media.MediaPlayer _mediaPlayer;
+        private SoundPlayer _soundPlayer;
 
         private DiscordRpc.RichPresence presence;
         DiscordRpc.EventHandlers handlers;
@@ -30,9 +31,8 @@ namespace DehysRPD
         {
             InitializeComponent();
             _timer = new System.Threading.Timer(_ => StopAnimation(), null, Timeout.Infinite, Timeout.Infinite);
-            this.pictureboxLogo.Image = SvgLoader.GetBitmapFromSVG(AppDomain.CurrentDomain.BaseDirectory + "\\res\\Discord.svg", new Size(20, 20));
-
-            _mediaPlayer = new System.Windows.Media.MediaPlayer();
+            _soundPlayer = new SoundPlayer();
+            _soundPlayer.Stream = DehysRPD.Properties.Resources.bling;
 
             Process[] processes = Process.GetProcesses();
 
@@ -49,7 +49,7 @@ namespace DehysRPD
 
 
             notifyIcon = new NotifyIcon();
-            notifyIcon.Icon = new System.Drawing.Icon(AppDomain.CurrentDomain.BaseDirectory + "\\res\\logo.ico");
+            notifyIcon.Icon = DehysRPD.Properties.Resources.logo;
             notifyIcon.Visible = false;
 
             notifyIcon.Click += new EventHandler(onNotifyIconClick);
@@ -137,9 +137,7 @@ namespace DehysRPD
         {
             pictureboxAnimation.Visible = false;
             pictureboxAnimation.Location = new Point((this.PointToClient(Cursor.Position).X)-20, pictureboxAnimation.Location.Y);
-            try { _mediaPlayer.Open(new Uri(AppDomain.CurrentDomain.BaseDirectory + "\\res\\bling.wav")); } catch (Exception ex) { Console.WriteLine(ex.Message); }
-            _mediaPlayer.Volume = 1 / 100.0f;
-            _mediaPlayer.Play();
+            _soundPlayer.Play();
             pictureboxAnimation.Visible = true;
             _timer.Change(TimeSpan.FromMilliseconds(500), Timeout.InfiniteTimeSpan);
         }

@@ -19,7 +19,6 @@ E:\Projects\C#\Discord\DehysRPD\bin\Debug\Svg.dll
 E:\Projects\C#\Discord\DehysRPD\bin\Debug\Svg.xml
 E:\Projects\C#\Discord\DehysRPD\obj\Debug\DehysRPD.csprojAssemblyReference.cache
 E:\Projects\C#\Discord\DehysRPD\obj\Debug\DehysRPD.DehysRPDForm.resources
-E:\Projects\C#\Discord\DehysRPD\obj\Debug\DehysRPD.DehysRPDNewTest.resources
 E:\Projects\C#\Discord\DehysRPD\obj\Debug\DehysRPD.Properties.Resources.resources
 E:\Projects\C#\Discord\DehysRPD\obj\Debug\DehysRPD.csproj.GenerateResource.cache
 E:\Projects\C#\Discord\DehysRPD\obj\Debug\DehysRPD.csproj.CoreCompileInputs.cache

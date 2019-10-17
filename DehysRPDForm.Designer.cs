@@ -44,7 +44,9 @@ namespace DehysRPD
             this.lblApplicationId = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textboxApplicationId = new System.Windows.Forms.NumericUpDown();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.listboxProccesses = new System.Windows.Forms.ListBox();
             this.lblSmallText = new System.Windows.Forms.Label();
             this.lblBigText = new System.Windows.Forms.Label();
             this.panelSmallPictureIndicator = new System.Windows.Forms.Panel();
@@ -65,8 +67,6 @@ namespace DehysRPD
             this.panelUpdateButton = new System.Windows.Forms.Panel();
             this.pictureboxAnimation = new System.Windows.Forms.PictureBox();
             this.btnStop = new System.Windows.Forms.Button();
-            this.listboxProccesses = new System.Windows.Forms.ListBox();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.panelHeader.SuspendLayout();
             this.panelHeaderLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureboxLogo)).BeginInit();
@@ -105,10 +105,13 @@ namespace DehysRPD
             // 
             // pictureboxLogo
             // 
+            this.pictureboxLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureboxLogo.Cursor = System.Windows.Forms.Cursors.SizeAll;
-            this.pictureboxLogo.Location = new System.Drawing.Point(4, 2);
+            this.pictureboxLogo.Image = global::DehysRPD.Properties.Resources.Discord;
+            this.pictureboxLogo.Location = new System.Drawing.Point(4, 3);
             this.pictureboxLogo.Name = "pictureboxLogo";
-            this.pictureboxLogo.Size = new System.Drawing.Size(22, 22);
+            this.pictureboxLogo.Size = new System.Drawing.Size(23, 23);
+            this.pictureboxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureboxLogo.TabIndex = 0;
             this.pictureboxLogo.TabStop = false;
             this.pictureboxLogo.MouseMove += new System.Windows.Forms.MouseEventHandler(this.onHeaderMouseMove);
@@ -235,6 +238,14 @@ namespace DehysRPD
             this.textboxApplicationId.Size = new System.Drawing.Size(162, 16);
             this.textboxApplicationId.TabIndex = 19;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
+            this.panel1.Location = new System.Drawing.Point(275, 240);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(28, 90);
+            this.panel1.TabIndex = 17;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -247,6 +258,22 @@ namespace DehysRPD
             this.label1.Size = new System.Drawing.Size(110, 15);
             this.label1.TabIndex = 16;
             this.label1.Text = "Running Processes ";
+            // 
+            // listboxProccesses
+            // 
+            this.listboxProccesses.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(49)))), ((int)(((byte)(58)))));
+            this.listboxProccesses.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listboxProccesses.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.listboxProccesses.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listboxProccesses.ForeColor = System.Drawing.Color.White;
+            this.listboxProccesses.FormattingEnabled = true;
+            this.listboxProccesses.ItemHeight = 15;
+            this.listboxProccesses.Location = new System.Drawing.Point(27, 240);
+            this.listboxProccesses.Margin = new System.Windows.Forms.Padding(5);
+            this.listboxProccesses.Name = "listboxProccesses";
+            this.listboxProccesses.Size = new System.Drawing.Size(276, 90);
+            this.listboxProccesses.TabIndex = 15;
+            this.listboxProccesses.DoubleClick += new System.EventHandler(this.onProccessesDoubleClick);
             // 
             // lblSmallText
             // 
@@ -498,30 +525,6 @@ namespace DehysRPD
             this.btnStop.UseVisualStyleBackColor = false;
             this.btnStop.Click += new System.EventHandler(this.onStopClick);
             this.btnStop.MouseDown += new System.Windows.Forms.MouseEventHandler(this.onUpdateMouseDown);
-            // 
-            // listboxProccesses
-            // 
-            this.listboxProccesses.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(49)))), ((int)(((byte)(58)))));
-            this.listboxProccesses.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.listboxProccesses.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.listboxProccesses.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listboxProccesses.ForeColor = System.Drawing.Color.White;
-            this.listboxProccesses.FormattingEnabled = true;
-            this.listboxProccesses.ItemHeight = 15;
-            this.listboxProccesses.Location = new System.Drawing.Point(27, 240);
-            this.listboxProccesses.Margin = new System.Windows.Forms.Padding(5);
-            this.listboxProccesses.Name = "listboxProccesses";
-            this.listboxProccesses.Size = new System.Drawing.Size(276, 90);
-            this.listboxProccesses.TabIndex = 15;
-            this.listboxProccesses.DoubleClick += new System.EventHandler(this.onProccessesDoubleClick);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
-            this.panel1.Location = new System.Drawing.Point(275, 240);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(28, 90);
-            this.panel1.TabIndex = 17;
             // 
             // DehysRPDForm
             // 

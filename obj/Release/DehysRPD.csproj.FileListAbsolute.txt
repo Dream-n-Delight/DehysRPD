@@ -26,3 +26,9 @@ E:\Projects\C#\DehysRPD\obj\Release\DehysRPD.csproj.CoreCompileInputs.cache
 E:\Projects\C#\DehysRPD\obj\Release\DehysRPD.csproj.CopyComplete
 E:\Projects\C#\DehysRPD\obj\Release\DehysRPD.exe
 E:\Projects\C#\DehysRPD\obj\Release\DehysRPD.pdb
+E:\Projects\C#\Discord\DehysRPD\obj\Release\DehysRPD.csprojAssemblyReference.cache
+E:\Projects\C#\Discord\DehysRPD\obj\Release\DehysRPD.DehysRPDForm.resources
+E:\Projects\C#\Discord\DehysRPD\obj\Release\DehysRPD.DehysRPDNewTest.resources
+E:\Projects\C#\Discord\DehysRPD\obj\Release\DehysRPD.csproj.GenerateResource.cache
+E:\Projects\C#\Discord\DehysRPD\obj\Release\DehysRPD.exe
+E:\Projects\C#\Discord\DehysRPD\obj\Release\DehysRPD.pdb
