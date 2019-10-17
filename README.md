@@ -14,6 +14,8 @@ but it will update for users seeing your profile.
 
 We hope this is useful to you and we'd love to see new update idea's over at our [Discord](https://discord.gg/3JVTjhn).
 
+<div style="text-align:center"><img src="Resources/tutorial.gif" /></div>
+
 #### Dependencies
  - .NET 4.6.1+
  
