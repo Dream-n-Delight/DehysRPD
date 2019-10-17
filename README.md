@@ -15,7 +15,7 @@ We hope this is useful to you and we'd love to see new update idea's over at our
 
 #### Dependencies
  - .NET 4.6.1+
- - Newtonsoft.Json -.+
+ - Svg 3.0.49+ (nuget)
  
 #### Building:
 Firsty, clone the repository via git
