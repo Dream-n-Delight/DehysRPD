@@ -1,3 +1,5 @@
+<h1 align="center">[Logo](Resources/preview.png)</h1>
+
 # DehysRPD - _Dehys Rich Presence for Discord_
 This is a C# _implementation_ of the [Discord RPC](https://github.com/discordapp/discord-rpc).
 
