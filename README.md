@@ -30,7 +30,7 @@ Build it and run the exe file (Make sure you have all the dependencies installed
 <img src="Resources/tutorial.gif"/>
 
 #### How to use:
-- Start off by creating a new discord application over [here](https://discordapp.com/developers/applications).  
+- Start off by creating a new discord application over [here](https://discordapp.com/developers/applications ).  
 - Set the default values such as name and change the application icon (not optional).  
 - Now head over to the tab where it says **Rich Presence** and setup the rich presence part of the discord application.  
 - Adding assets and setting the name of the rich presence client.  
