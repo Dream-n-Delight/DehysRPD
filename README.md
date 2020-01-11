@@ -1,6 +1,6 @@
 <div style="text-align:center"><img src="Resources/banner.png" /></div>
 
-# DehysRPD - _Dehys Rich Presence for Discord_
+# DehysRPD - _Dehys's Rich Presence for Discord_
 This is a C# _implementation_ of the [Discord RPC](https://github.com/discordapp/discord-rpc).
 
 A simple to use WinForms application using the _.NET Framework_ as well as a external dependency for rpc connection to discord. This dependency will be copied to the base directory on build.
