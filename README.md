@@ -1,3 +1,4 @@
+<div style="text-align:center"><img src="Resources/inactivity_notice.png" /></div>
 <div style="text-align:center"><img src="Resources/banner.png" /></div>
 
 # DehysRPD - _Dehys's Rich Presence for Discord_
